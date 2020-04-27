@@ -11,16 +11,16 @@ In this project, I would be applying Data Modeling with Apache Cassandra and com
 <b>Datasets:</b>
 
 For this project, you'll be working with one dataset: event_data. The directory of CSV files partitioned by date. Here are examples of filepaths to two files in the dataset:
-event_data/2018-11-08-events.csv
-event_data/2018-11-09-events.csv
+- event_data/2018-11-08-events.csv
+- event_data/2018-11-09-events.csv
 
 <b>Project Template:</b>
 
 The project template includes one Jupyter Notebook file, in which:
-•	you will process the event_datafile_new.csv dataset to create a denormalized dataset
-•	you will model the data tables keeping in mind the queries you need to run
-•	you have been provided queries that you will need to model your data tables for
-•	you will load the data into tables you create in Apache Cassandra and run your queries
+- you will process the event_datafile_new.csv dataset to create a denormalized dataset
+- you will model the data tables keeping in mind the queries you need to run
+- you have been provided queries that you will need to model your data tables for
+- you will load the data into tables you create in Apache Cassandra and run your queries
 
 <b>Project Steps:</b>
 
@@ -28,7 +28,7 @@ Below are steps you can follow to complete each component of this project.
 
 <b>Modelling your NoSQL Database or Apache Cassandra Database:</b>
     
-1.	Design tables to answer the queries outlined in the project template
+1. Design tables to answer the queries outlined in the project template
 2.	Write Apache Cassandra CREATE KEYSPACE and SET KEYSPACE statements
 3.	Develop your CREATE statement for each of the tables to address each question
 4.	Load the data with INSERT statement for each of the tables
