@@ -5,6 +5,7 @@ import configparser
 config = configparser.ConfigParser()
 config.read('dwh.cfg')
 
+
 # GLOBAL VARIABLES
 LOG_DATA = config.get("S3","LOG_DATA")
 LOG_PATH = config.get("S3", "LOG_JSONPATH")
