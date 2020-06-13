@@ -10,7 +10,7 @@ Designed a NoSQL database using Apache Cassandra based on the original schema ou
 
 Proficiencies used: Python, Apache Cassandra, Denormalization
 
-## Project: [Data Warehouse - Amazon Redshift](https://github.com/Angelo-Baruffi/Udacity-Data-Engineering/tree/master/Cloud%20Data%20Warehouse/Project%20Data%20Warehouse%20with%20AWS).
+## Project: [Data Warehouse - Amazon Redshift](https://github.com/Angelo-Baruffi/Udacity-Data-Engineering/tree/master/Cloud%20Data%20Warehouse).
 Created a database warehouse utilizing Amazon Redshift. Skills include:
 * Creating a Redshift Cluster, IAM Roles, Security groups.
 * Develop an ETL Pipeline that copies data from S3 buckets into staging tables to be processed into a star schema
