@@ -9,8 +9,8 @@ The idea of this project was to test a spark cluster in EMR using S3 as a data l
 - EMR is an easy and quick way to raise a spark cluster with numerous other hadoop services. 
 - An easy way to interact with the pyspark is the jupyter lab. Interface built automatically by the cluster for interaction with the pyspark kernel via notebook
 - Using spark is quick and easy to read s3 partitioned data
-> df = spark.read.json('s3://udacity-dend/song_data/*/*/*/*.json')
->> df.write.partitionBy("artist_id").mode("append").parquet(output_s3)
+> df = spark.read.json('s3://udacity-dend/song_data//*//*//*//*.json')
+> df.write.partitionBy("artist_id").mode("append").parquet(output_s3)
 - For production processing, it was seen how to submit a .py file
 - Spark is a great tool for large-scale use, but it has a large overhead for small datasets
 
