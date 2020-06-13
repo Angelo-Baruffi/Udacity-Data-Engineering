@@ -1,26 +1,9 @@
-# AWS for Data Analysis using spark
+# Udacity Description - Project: Data Lake
 
-This study has the objective to test AWS services for data analysis.
+<em>As an opportunity to test AWS for data analysis, I expanded the original scope to test others services and data flows.
+</em>
 
-##Abstract
-The idea of this project was to test a spark cluster in EMR using S3 as a data lake
-
-##Main Learning
-- EMR is an easy and quick way to raise a spark cluster with numerous other hadoop services. 
-- An easy way to interact with the pyspark is the jupyter lab. Interface built automatically by the cluster for interaction with the pyspark kernel via notebook
-- Using spark is quick and easy to read s3 partitioned data
-> df = spark.read.json('s3://udacity-dend/song_data/*/*/*/*.json')
->> df.write.partitionBy("artist_id").mode("append").parquet(output_s3)
-- For production processing, it was seen how to submit a .py file
-- Spark is a great tool for large-scale use, but it has a large overhead for small datasets
-
-##Architecture
-Using EMR it is possible to maintain or separate processing from storage.
-###Processing and storage as the same cluster
-<img src="img/Arc1.png">
-###Separate processing and storage
-<img src="img/Arc2.png">
-##Introduction about the project
+##Introduction
 A music streaming startup, Sparkify, has grown their user base and song database even more and want to move their data warehouse to a data lake. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
 As their data engineer, you are tasked with building an ETL pipeline that extracts their data from S3, processes them using Spark, and loads the data back into S3 as a set of dimensional tables. This will allow their analytics team to continue finding insights in what songs their users are listening to.
@@ -82,16 +65,6 @@ Alternatively, you can download the template files in the Resources tab in the c
 
 The project template includes three files:
 
-- <b>SparkTest.ipynb</b> Created to do some important tests (nice to see)
 - <b>etl.py</b> reads data from S3, processes that data using Spark, and writes them back to S3
 - <b>dl.cfg</b> contains your AWS credentials
 - <b>README.md</b> provides discussion on your process and decisions
-
-
-## EXTRAS
-
-- To use Spark SQL is necessary to install Hive in the cluster
-- Spark has a good logging interface to monitor execution (Spark WebUI) for JOB -> Stages -> Tasks
-<img src="img/Stage.png">
-<img src="img/Task.png">
-<img src="img/DAG.png">
