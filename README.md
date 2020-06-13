@@ -18,7 +18,7 @@ Created a database warehouse utilizing Amazon Redshift. Skills include:
 
 Proficiencies used: Python, Amazon Redshift, aws cli, Amazon SDK, SQL, PostgreSQL
 
-## Project: [Data Lake - Spark](https://github.com/Angelo-Baruffi/Udacity-Data-Engineering/tree/master/Data%20Lakes%20with%20Spark/Project%20Data%20Lake%20with%20Spark)
+## Project: [Data Lake - Spark](https://github.com/Angelo-Baruffi/Udacity-Data-Engineering/tree/master/Data%20Lakes%20with%20Spark)
 Scaled up the current ETL pipeline by moving the data warehouse to a data lake. Skills include:
 * Create an EMR Hadoop Cluster
 * Further develop the ETL Pipeline copying datasets from S3 buckets, data processing using Spark and writing to S3 buckets using efficient partitioning and parquet formatting.
