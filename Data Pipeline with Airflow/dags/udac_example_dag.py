@@ -1,16 +1,12 @@
 from datetime import datetime, timedelta
-import os
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
                                 LoadDimensionOperator, DataQualityOperator)
 from helpers import SqlQueries
 
-# AWS_KEY = os.environ.get('AWS_KEY')
-# AWS_SECRET = os.environ.get('AWS_SECRET')
-
 default_args = {
-    'owner': 'nareshkumar',
+    'owner': 'angelobaruffi',
     'start_date': datetime(2018, 11, 1),
     'end_date': datetime(2018, 11, 30),
     'depends_on_past': False,
@@ -20,7 +16,7 @@ default_args = {
     'email_on_retry': False
 }
 
-dag = DAG('udacity_airflow_project5',
+dag = DAG('udacity_airflow_project',
           default_args=default_args,
           description='Load and transform data in Redshift with Airflow',
           schedule_interval='0 * * * *',
