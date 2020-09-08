@@ -1,7 +1,7 @@
 # Data Engineering Nanodegree
 
 Projects and resources developed in the [DEND Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027) from Udacity.
-The structure of this repository was forked from nareshk1290/Udacity-Data-Engineering
+The structure and some codes of this repository was forked from nareshk1290/Udacity-Data-Engineering
 
 ## Project: [NoSQL Databases - Data Modeling with Apache Cassandra](https://github.com/Angelo-Baruffi/Udacity-Data-Engineering/tree/master/Data-Modeling).
 Designed a NoSQL database using Apache Cassandra based on the original schema outlined in project one. Skills include:
