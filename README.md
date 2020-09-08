@@ -22,9 +22,8 @@ Proficiencies used: Python, Amazon Redshift, aws cli, Amazon SDK, SQL, PostgreSQ
 Scaled up the current ETL pipeline by moving the data warehouse to a data lake. Skills include:
 * Create an EMR Hadoop Cluster
 * Further develop the ETL Pipeline copying datasets from S3 buckets, data processing using Spark and writing to S3 buckets using efficient partitioning and parquet formatting.
-* Fast-tracking the data lake buildout using (serverless) AWS Lambda and cataloging tables with AWS Glue Crawler.
 
-Technologies used: Spark, S3, EMR, Athena, Amazon Glue, Parquet.
+Technologies used: Spark, S3, EMR, Parquet.
 
 ## Project: [Data Pipelines - Airflow](https://github.com/Angelo-Baruffi/Udacity-Data-Engineering/tree/master/Data%20Pipeline%20with%20Airflow)
 Automate the ETL pipeline and creation of data warehouse using Apache Airflow. Skills include:
