@@ -16,7 +16,7 @@ default_args = {
     'email_on_retry': False
 }
 
-dag = DAG('udacity_airflow_project',
+dag = DAG('airflow_project_angelo',
           default_args=default_args,
           description='Load and transform data in Redshift with Airflow',
           schedule_interval='0 * * * *',
